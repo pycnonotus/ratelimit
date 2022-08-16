@@ -15,9 +15,7 @@ public class SlidingLogCounter
 
     public void EmptyTill(DateTime time)
     {
-        if(_queue.Count == 0 ) return;
-        
-        while (_queue.Peek()?.DecayTime < time)
+        while (_queue.Count == 0 &&_queue.Peek()?.DecayTime < time)
         {
             var stamp = _queue.Dequeue();
             _total -= stamp.Counter;
