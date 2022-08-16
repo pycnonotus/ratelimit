@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=32b0c134_002D9a6c_002D40b1_002D8deb_002D6fc99afd4485/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="IsPrime_ShouldReturnFalse_WhenNumberIsPrime" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::44591411-FBC4-4278-85FF-1B25CE538A35::net6.0::Application.UnitTests.SimplePrimesServiceUnitTest.IsPrime_ShouldReturnFalse_WhenNumberIsPrime&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::44591411-FBC4-4278-85FF-1B25CE538A35::net6.0::Application.UnitTests.SimplePrimesServiceUnitTest.IsPrime_ShouldReturnTrue_WhenNumberIsPrime&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet"  href="./styles.css"></style>
+    <script  src="./main.js" type="text/javascript" charset="utf-8" defer ></script>
+</head>
+<body>
+    <main>
+        <div class="token-gentaor">
+            <form onsubmit="onGenerateToken(); return false" >
+                <h2>token generator</h2>
+                <p>
+                    in a real app I ) would use a proper way of authentication. <br>
+                    but for demo purposes. im generating a fake token here
+                    
+                </p>
+                <button> generate random token</button>
+                <h3>
+                    <label for="key">key:</label> <span id="key"></span>
+                </h3>
+            </form>
+        </div>
+      <div class="calcolator">
+        <h1>
+            Is Prime Number calculator!
+        </h1>
+        <form onsubmit="onIsPrimeNumber(); return false" >
+            <div class="row">
+                <label for="number-to-test"> Number:</label>
+                <input type="number" id="number-to-test" maxlength="10" required>
+            </div>
+            <div class="row">
+                <label for="token">  Identifier token:</label>
+                <input type="string" id="token" maxlength="100" required>
+            </div>
+            <button> check</button>
+        </form>
+        <div class="">
+            <pre id="end-point-result">
+
+            </pre>
+        </div>
+      </div>
+    </main>
+</body>
+</html>
